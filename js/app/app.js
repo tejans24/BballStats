@@ -6,6 +6,10 @@ app.config(['$routeProvider', '$httpProvider',
     when('/login', {
       templateUrl: '/partials/login',
       controller: 'LoginCtrl'
+    }).
+    when('/standings', {
+      templateUrl: '../partials/standings.html',
+      controller: 'StandingCtrl'
     })
     .otherwise({
       templateUrl: '../partials/scores.html',

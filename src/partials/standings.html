@@ -1,0 +1,49 @@
+<div>
+	<h3>East Standings</h3>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>W</th>
+				<th>L</th>
+				<th>PCT</th>
+				<th>HOME</th>
+				<th>ROAD</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="standing in eastStandings">
+				<td>{{standing[5]}}</td>
+				<td>{{standing[7]}}</td>
+				<td>{{standing[8]}}</td>
+				<td>{{standing[9]}}</td>
+				<td>{{standing[10]}}</td>
+				<td>{{standing[11]}}</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3>West Standings</h3>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>W</th>
+				<th>L</th>
+				<th>PCT</th>
+				<th>HOME</th>
+				<th>ROAD</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="standing in westStandings">
+				<td>{{standing[5]}}</td>
+				<td>{{standing[7]}}</td>
+				<td>{{standing[8]}}</td>
+				<td>{{standing[9]}}</td>
+				<td>{{standing[10]}}</td>
+				<td>{{standing[11]}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

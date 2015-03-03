@@ -1,1 +1,26 @@
-<h1>Scores</h1>
+<h3>Scores {{ date }}</h3>
+<div>
+	<table>
+		<thead>
+			<tr>
+				<th class="win"></th>
+				<th class="logo"></th>
+				<th class="abbr"></th>
+				<th class="qtr1"></th>
+				<th class="qtr2"></th>
+				<th class="qtr3"></th>
+				<th class="qtr4"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="header in headers">
+				<td>{{header[5]}}</td>
+				<td>{{header[7]}}</td>
+				<td>{{header[8]}}</td>
+				<td>{{header[9]}}</td>
+				<td>{{header[10]}}</td>
+				<td>{{header[11]}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

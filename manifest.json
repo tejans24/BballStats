@@ -21,6 +21,10 @@
     "default_title": "browser action demo",
     "default_popup": "src/browser_action/browser_action.html"
   },
+  "permissions": [
+    "http://stats.nba.com/stats",
+    "http://stats.nba.com/stats/scoreboardV2"
+  ],
   "content_scripts": [
     {
       "matches": [
